@@ -21,6 +21,8 @@ export class AppComponent implements OnInit {
     this.video = document.getElementById('webcam') as HTMLVideoElement;
     this.liveView = document.getElementById('liveView');
     this.enableCam();
+    // feature commit 1
+    // feature commit 2
   }
   enableCam() {
     var browser = <any>navigator;
